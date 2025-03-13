@@ -1,9 +1,22 @@
+<!-- filepath: c:\Users\jppal\tetrablast2\tetrablast2-apk\www\index.html -->
 <!DOCTYPE html>
 <html>
     <head>
         <script type="text/javascript" src="js/phaser.min.js"></script>
-       <script type="text/javascript" src ="js/game.js"></script>
+        <script type="text/javascript" src="js/game.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
     </head>
     <body>
+        <script type="text/javascript">
+            document.addEventListener('deviceready', function() {
+                if (window.AdMob) {
+                    AdMob.createBanner({
+                        adId: 'ca-app-pub-3940256099942544/6300978111',
+                        position: AdMob.AD_POSITION.BOTTOM_CENTER,
+                        autoShow: true
+                    });
+                }
+            }, false);
+        </script>
     </body>
 </html>

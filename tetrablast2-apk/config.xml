@@ -8,4 +8,6 @@
     <content src="index.html" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
+    <preference name="AdMobAppId" value="ca-app-pub-3940256099942544~3347511713" />
+
 </widget>
